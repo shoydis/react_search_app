@@ -1,5 +1,6 @@
 import './App.css';
 import Nav from './Nav';
+import Home from './Home'; 
 import Search from './Search'; 
 import History from './History'; 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -20,17 +21,5 @@ function App() {
   );
 }
 
-function Home() {
-  
-		return (
-
-		  <div>    
-			<h1>Welcome</h1>
-			<p> Use the grey bar above to navigate. </p>
-			 
-		  </div>
-		);   
-	 
-}
 
 export default App;
