@@ -7,7 +7,7 @@ function Nav() {
        	<h1>Nav</h1>
 	  	<ul className="nav-links">
 	  
-	  		<Link to="/">
+	  		<Link to="/search">
 				<li>
 					Search
 				</li>

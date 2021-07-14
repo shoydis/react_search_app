@@ -10,7 +10,8 @@ function App() {
 		<div className="App">  
 			<Nav /> 
 	  		<Switch>
-				<Route path="/" exact component={Search}/>    
+				<Route path="/" exact component={Home}/>   
+				<Route path="/search" component={Search}/>    
 				<Route path="/history" component={History}/>
 	  
 	  		</Switch>
@@ -19,5 +20,17 @@ function App() {
   );
 }
 
+function Home() {
+  
+		return (
+
+		  <div>    
+			<h1>Welcome</h1>
+			<p> Use the grey bar above to navigate. </p>
+			 
+		  </div>
+		);   
+	 
+}
 
 export default App;
